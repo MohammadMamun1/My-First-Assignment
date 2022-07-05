@@ -1,5 +1,8 @@
 body{
     font-family: 'Kanit', sans-serif;
+    margin: 0px;
+    border: 15px;
+    padding: 2%;
 }
 h1{
     font-size: 60px;
@@ -12,16 +15,16 @@ section{
 }
 .Half-width{
     width: 50%;
-    padding-left: 5%;
+   padding: 10px;
 }
 .Half-width img{
-    width: 95%;
+    width: 90%;
 }
 p{
     font-size: 20px;
 }
 .Half-width h1{
-    width: 95%;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -30,4 +33,21 @@ p{
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 30px;
+}
+section{
+    display: flex;
+}
+.about-me{
+    width: 50%;
+    padding-left: 5%;
+}
+.about-me img{
+    width: 70%;
+}
+.about-me p{
+    width: 70%;
+}
+.first-class{
+    background-image: url(7.png);
+    padding-left: 10px;
 }
